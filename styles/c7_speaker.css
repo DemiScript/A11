@@ -45,6 +45,39 @@ header img {
 .shadow {
 	text-shadow: 2px 2px 2px #800000;
 }
+/* style rules for nav elements*/
+nav ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	position: relative;
+}
+#nav_menu ul li {
+	float: left;
+}
+ul li a {
+	display: block;
+	width: 160px;
+	text-align: center;
+	padding-top: 1em;
+	padding-bottom: 1em;
+	background-color: #800000;
+	color: white;
+	font-weight: bold;
+	text-decoration: none;
+}
+.current {
+	color: yellow;
+}
+li ul {
+	display: none;
+}
+li ul li{
+	clear: both;
+}
+ul li:hover ul{
+	display: block;
+}
 /* the styles for the main content */
 main {
 	clear: left;
@@ -121,3 +154,13 @@ footer p {
 	color: white;
 	padding: 1em 0;
 }
+nav ul li {
+	position: relative;
+}
+
+nav ul ul {
+	position: absolute;
+	width: 100%;
+}
+
+

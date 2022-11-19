@@ -51,13 +51,6 @@ nav ul {
 	margin: 0;
 	padding: 0;
 	position: relative;
-
-	/*Animation*/
-	-webkit-transition: height 1s ease;
-	-moz-transition: height 1s ease;
-	-o-transition: height 1s ease;
-	-ms-transition: height 1s ease;
-	transition: height 1s ease;
 }
 #nav_menu ul li {
 	float: left;
@@ -82,7 +75,7 @@ li ul {
 li ul li{
 	clear: both;
 }
-#nav_menu:hover ul li ul{
+ul li:hover ul{
 	display: block;
 }
 
@@ -114,6 +107,7 @@ section ul {
 }
 section li {
 	padding-bottom: .35em;
+	list-style: circle;
 }
 
 /* the styles for the article */
